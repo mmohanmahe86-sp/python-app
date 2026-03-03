@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "mmohanmahe86/python-devops-app"
-        DOCKER_HOST_IP = "172.31.45.32"
+        DOCKER_HOST_IP = "172.31.42.43"
     }
 
     stages {
