@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "priyakitty98/python-devops-app"
-        DOCKER_HOST_IP = "172.31.10.88"
+        IMAGE_NAME = "mmohanmahe86/python-devops-app"
+        DOCKER_HOST_IP = "172.31.45.32"
     }
 
     stages {
 
         stage('Clone Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/PriyaKitty98/python-devops-app.git'
+                git branch: 'main', url: 'https://github.com/mmohanmahe86-sp/python-app.git'
             }
         }
 
